@@ -1,0 +1,19 @@
+# DESCRIPTION
+
+# Data source: comes from a CSV file that is inside a folder called "Sales" from S3 of AWS.
+
+# Data type: File is CSV
+
+# Schema of the columns: Product_ID,Product_Name,Category,Brand,Unit_Price,Total_Sales_Amount,Sales_Date,Sales_Time,Customer_ID,Customer_Name,Customer_Email,Customer_Phone,Payment_Method,Transaction_ID,Store_Location,Employee_ID,Employee_Name,Sales_Channel
+
+# Size: Each column has 100 rows of data
+
+# Transformations: 
+    # Remove rows with duplicates, null, empty and errors.
+    # Select the Product_Name with a Total_Sales greater than 5600€, with Store_Location equal to Madrid, with Payment_Method equal to Bank Transfer and the Sales_Channel equal to Store.
+
+
+# Destination of the transformed CSV: Upload the CSV file that is inside a folder called "Sales Silver" from S3 of AWS.
+
+
+
