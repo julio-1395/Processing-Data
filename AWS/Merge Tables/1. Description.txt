@@ -1,0 +1,28 @@
+# DESCRIPTION
+
+# Data source: Data source: 
+  I have 6 CSV files with the same schema which is inside a folder named "Sales" 
+  from S3 of AWS, each CSV are named: 
+  January, February, March, April, May, June. 
+
+# Data type: File is CSV
+
+# Schema of the columns: 
+  Product_ID,Product_Name,Category,Brand,Unit_Price,Total_Sales_Amount,Sales_Date,Sales_Time,
+  Customer_ID,Customer_Name,Customer_Email,Customer_Phone,Payment_Method,Transaction_ID,
+  Store_Location,Employee_ID,Employee_Name,Sales_Channel
+
+# Size: 
+  Each column has 100 rows of data
+
+# Transformations: 
+  I need to merge these 5 tables into one table.
+  Remove duplicate, null, empty data from the merged table.
+
+
+# Destination of the transformed CSV: 
+  Upload the final CSV file called "1st Semester" which is inside a folder 
+  called "Silver Sales" from AWS S3.
+
+
+
