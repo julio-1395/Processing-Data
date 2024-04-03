@@ -1,0 +1,1 @@
+Perform an ETL with Python on Twitter data to load it into Azure Synapse.
