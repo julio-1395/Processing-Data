@@ -1,0 +1,9 @@
+Migrate data with Python:
+
+Objective:
+    -Migration of the 20 tables of the database "Sales".
+    -Perform a function that evaluates that the data has been migrated correctly.
+
+Data source: SQL Server Local
+
+Destination of the data: Azure SQL Database

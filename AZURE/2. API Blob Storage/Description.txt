@@ -1,0 +1,19 @@
+Create an ETL using Python to load data from an API to load into Azure Blob Storage 
+
+Data source: 
+API with name "Supermarket"
+
+Parameters:
+    -Products
+    -Orders
+    -Customers
+    -Channels
+
+Data format :
+    -JSON
+
+Authentication:
+   -Token OAuth
+
+Objective:  
+Perform a function to evaluate if the api data does not have null or empty data.
