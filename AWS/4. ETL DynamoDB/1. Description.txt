@@ -1,0 +1,20 @@
+Create an ETL using Python to load data from a non-relational database "MongoDB" to load into "DynamoDB".
+
+ETL language:
+Python
+
+Data source: 
+MongoDB
+
+Documents:
+    -Distribution
+    -Consumption
+    -Employees
+    -Marketing
+
+Data destination: 
+DynamoDB
+
+Objective:  
+Load data from MongoDB to DynamoDB.
+To perform a function to evaluate if the api data has no null or empty data.

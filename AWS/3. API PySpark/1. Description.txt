@@ -1,0 +1,27 @@
+Create an ETL using Pypark to load data from an API to load into S3 AWS
+
+Data source: 
+API with name "Electronics"
+
+ETL Language:
+PySpark
+
+ETL Service:
+Glue
+
+
+Parameters:
+    -Products
+    -Orders
+    -Sales
+    -Costs
+
+Data format :
+    -JSON
+
+Authentication:
+   -Token OAuth
+
+Objective:  
+Convert json data into tables by the following names: Products, Orders, Sales and Costs.
+To perform a function to evaluate if the api data has no null or empty data.
